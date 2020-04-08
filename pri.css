@@ -1,0 +1,39 @@
+.write{
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #DD172B;
+    color: white;
+    box-sizing: border-box;
+}
+.write div{
+    display: inline-block;
+    width: 90%;
+    margin-left: 25px;
+}
+.high{
+    box-sizing: border-box;
+    border: 2px wheat solid;
+    background: white;
+    color: black;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+.high span{
+    color: brown;
+    font-size: large;
+}
+.list{
+    border: 1px black solid;
+    background: white;
+    color: black;
+    padding: 10px;
+}
+.list li{
+    margin: 4px;
+    border-bottom: 2px red solid;
+
+    padding-left: 5px;
+}
+.right{
+    margin-bottom: 10px;
+}

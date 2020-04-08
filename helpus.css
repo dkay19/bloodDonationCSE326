@@ -1,0 +1,27 @@
+.sec1{
+text-align: center;
+    background: #DD172B;
+    padding: 20px;
+}
+.first{
+    display: inline-block;
+    width: 50vw;
+      margin-bottom: 15px;
+    text-align: center;
+    background: white;
+
+    border: 2px lightsalmon solid;
+    border-radius: 12px;
+}
+.first div {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 4px;
+    padding: 10px;
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+}
+.first img{
+    vertical-align: middle;
+    margin-top: 8px;
+}

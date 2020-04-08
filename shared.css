@@ -1,0 +1,126 @@
+html{
+    margin: 0px;
+    height: 100%;
+    background: wheat;
+}
+body{
+    background: white;
+    width: 80%;
+    margin: auto;
+}
+.header_first
+{
+    background: #DD172B;
+    color: white;
+    padding: 5px;
+}
+.header_first div{
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.header_first .float1
+{
+    width: 25%;
+    float: right;
+}
+.header_logo, .header_second
+{
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+.header_logo{
+    height: auto;
+    margin-top: 10px;
+}
+.header_second
+{
+    width: 30%;
+    margin-left: 80px;
+
+}
+.header_second ul{
+    list-style: none;
+    float: right;
+}
+.header_second li{
+    float: right;
+    padding: 3px;
+}
+/* nav bar css */
+
+nav ul{
+    list-style: none;
+    background: lightgray;
+    margin-bottom: 0;
+    padding: 4px;
+
+}
+
+header nav li
+{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    padding: 9px;
+    font-size: 14px;
+}
+.clearfix{
+    clear: both;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+nav li :hover{
+    color: white;
+    background: #DD172B;
+}
+
+.footer{
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: darkgray;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 0px;
+
+    background: #212121;
+}
+.footer div
+{
+    text-align: center;
+    margin-left: 17px;
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 22%;
+}
+.footer div h2
+{
+    font-size: 16px;
+}
+.footer ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    line-height: 30px;
+}
+.footer a{
+    color: #DD172B;
+}
+.made
+{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background: black;
+    font-family: "Lucida Handwriting";
+}
+.india{
+    color: orangered;
+}
+
+

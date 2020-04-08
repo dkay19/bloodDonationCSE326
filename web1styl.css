@@ -1,0 +1,218 @@
+html{
+    margin: 0px;
+    height: 100%;
+    background: wheat;
+}
+body{
+background: white;
+    width: 80%;
+    margin: auto;
+}
+.header_first
+{
+    background: #DD172B;
+    color: white;
+    padding: 5px;
+}
+.header_first div{
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.header_first .float1
+{
+    width: 25%;
+    float: right;
+}
+.header_logo, .header_second
+{
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+.header_logo{
+    height: auto;
+    margin-top: 10px;
+}
+.header_second
+{
+    width: 30%;
+    margin-left: 80px;
+
+}
+.header_second ul{
+    list-style: none;
+    float: right;
+}
+.header_second li{
+    float: right;
+    padding: 3px;
+}
+/* nav bar css */
+
+nav ul{
+    list-style: none;
+    background: lightgray;
+    margin-bottom: 0;
+    padding: 4px;
+
+}
+
+header nav li
+{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    padding: 9px;
+    font-size: 14px;
+}
+.clearfix{
+    clear: both;
+}
+ nav li a{
+     text-decoration: none;
+     color: black;
+     padding: 20px;
+ }
+ nav li :hover{
+     color: white;
+     background: #DD172B;
+ }
+ .section_first{
+     background: #DD172B;
+     box-sizing: border-box;
+     height: 73vh;
+
+ }
+
+ .section_first_you{
+     display: inline-block;
+     margin: 15px;
+     margin-top: 40px;
+     vertical-align: top;
+ }
+ .section_first_form{
+     display: inline-block;
+     width: 22%;
+     float: right;
+     margin-right: 20px;
+     margin-top: 35px;
+     vertical-align: top;
+
+ }
+ form{
+     height: 100%;
+     text-align: center;
+     background: #c9161c;
+     padding: 4px 2px 8px;
+
+     border-radius: 5px;
+
+
+ }
+ form h2{
+     color: white;
+     font-size: 20px;
+ }
+ form input{
+     display: block;
+     border-radius: 6px;
+     border: none;
+     width: 80%;
+     margin: auto;
+     padding: 6px;
+     padding-top: 14px;
+     margin-top: 10px;
+
+ }
+ form button{
+
+     outline: none;
+     cursor: pointer;
+     padding: 10px 16px;
+     margin: 15px;
+     color: white;
+     border-radius: 4px;
+     border: none;
+     background: darkred;
+     font-size: 15px;
+
+ }
+
+ .section_second div{
+     margin-top: 25px;
+     margin-left: 15px;
+     display: inline-block;
+     width: 30%;
+ }
+ .para{
+
+     vertical-align: top;
+     width: 60%;
+
+ }
+ .para p
+ {
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 18px;
+ }
+ .high{
+     color: darkred;
+     text-decoration: underline;
+     font: bold;
+ }
+ .hero{
+     display: inline-block;
+     width: 40%;
+     vertical-align: top;
+ }
+ .hero img
+ {
+     width: 100%;
+     display: inline-block;
+ }
+ /*footer*/
+ .footer{
+box-sizing: border-box;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     color: darkgray;
+     font-size: 14px;
+     width: 100%;
+     margin-top: 20px;
+
+     background: #212121;
+ }
+ .footer div
+ {
+     text-align: center;
+     margin-left: 17px;
+     vertical-align: top;
+     box-sizing: border-box;
+     display: inline-block;
+     width: 22%;
+ }
+ .footer div h2
+ {
+     font-size: 16px;
+ }
+ .footer ul, li, a{
+     text-decoration: none;
+     list-style: none;
+     line-height: 30px;
+ }
+ .footer a{
+     color: #DD172B;
+ }
+.made
+{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background: black;
+    font-family: "Lucida Handwriting";
+}
+.india{
+    color: orangered;
+}
+
